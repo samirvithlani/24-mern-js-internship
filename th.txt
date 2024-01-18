@@ -36,6 +36,24 @@ javascript provides 3 keyword for variable declaration
 3)const : block scope , final variable
 
 
+operators:to perform specfic operation on operands we use operators
+
+1)unery operators
+    increment/decrement a++ ,++a
+2)binary operators
+    1)arithmetic operators
+        +,-,*,/,%
+    2)asingment operators
+        =,+=,-=,*=,/=,%=
+    3)comparison operators / relational operators
+        ==,===,!=,!==,>,<,>=,<=
+    4)logical operators
+        &&,||,!
+    5)bitwise operators
+        &,|,^,~,<<,>>                    
+3)ter    operators
+    ?:
+
 
 
 

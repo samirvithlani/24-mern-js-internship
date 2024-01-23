@@ -73,3 +73,18 @@ split
 
 
 
+JSON: java script object notaion
+
+var x ={
+
+    key:value,
+}
+
+
+
+json object to create...
+exam :
+univer:
+employee:[nested....]
+2 your choice....
+

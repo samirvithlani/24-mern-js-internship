@@ -55,5 +55,21 @@ operators:to perform specfic operation on operands we use operators
     ?:
 
 
+string
+length
+concat
+charAt
+toUpperCase
+toLowerCase
+indexOf
+lastIndexOf
+startsWith
+endsWith
+includes
+replace
+trim
+susstring
+split
+
 
 

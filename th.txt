@@ -124,6 +124,9 @@ length param...
 some
 every
 sort
+map
+filter
+forEach
 
 
 

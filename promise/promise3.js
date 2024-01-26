@@ -1,21 +1,16 @@
-const fetchStudents = () =>{
+const fetchStudents = () => {
 
+console.log("start")
 
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      //    resolve(["user1","user2","user3"])
+      reject({ error: "server error" });
+    }, 3000);
+  });
 
-return new Promise((resolve,reject)=>{
-
-    setTimeout(()=>{
-    //    resolve(["user1","user2","user3"])
-    reject({error:"server error"})
-    
-    },3000)
-
-
-
-})
-
-}
-
+console.log("end")
+};
 
 // var promise = fetchStudents()
 // console.log(promise)
@@ -25,9 +20,13 @@ return new Promise((resolve,reject)=>{
 //     console.log(error)
 // })
 
-fetchStudents().then((students)=>{
-    console.log(students)
-}
-).catch((error)=>{
-    console.log(error)
-})
+console.log("start1");
+fetchStudents()
+  .then((students) => {
+    console.log(students);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+
+  console.log("end1");
